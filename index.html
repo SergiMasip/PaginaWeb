@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi segundo Formulario</title>
+    <style>
+        input,
+        select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        
+        input[type=submit] {
+            width: 100%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+        
+        form {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Formulario para registrar mascotas</h1>
+    <form action="">
+        <label for="">Nombre</label>
+        <input type="text" name="Nombre" placeholder="Nombre">
+        <label for="">Primer Apellido</label>
+        <input type="text" name="Primer Apellido" placeholder="Primer Apellido">
+        <label for="">Segundo Apellido</label>
+        <input type="text" name="Segundo Apellido" placeholder="Segundo Apellido">
+        <label for="">DNI o IDE</label>
+        <input type="text" name="DNI o IDE" placeholder="DNI o IDE">
+        <label for="">Día de nacimiento</label>
+        <input type="date" name="Día de nacimiento" placeholder="Día de nacimiento">
+        <label for="">Email</label>
+        <input type="email" name="email" placeholder="Email">
+        <label for="">Nacionalidad</label>
+        <select name="" id="">
+            <option value="">--Elige opción--</option>
+            <option value="">Español</option>
+            <option value="">Frances</option>
+            <option value="">Aleman</option>
+            <option value="">Japones</option>
+            <option value="">Austriaco</option>
+            <option value="">Americano</option>
+            <option value="">Portugués</option>
+            <option value="">Brasileño</option>
+            <option value="">Afgano</option>
+            <option value="">Cubano</option>
+        </select>
+        <label for="">País de residencia</label>
+        <select name="" id="">
+            <option value="">--Elige opción--</option>
+            <option value="">España</option>
+            <option value="">Francia</option>
+            <option value="">Alemania</option>
+            <option value="">Japon</option>
+            <option value="">Austria</option>
+            <option value="">America</option>
+            <option value="">Portugal</option>
+            <option value="">Brasil</option>
+            <option value="">Afganistan</option>
+            <option value="">Cuba</option>
+        </select>
+        <label for="">Categoría</label>
+        <select name="" id="">
+            <option value="">--Elige opción--</option>
+            <option value="">5K</option>
+            <option value="">10K</option>
+            <option value="">21K</option>
+            <option value="">42K</option>
+        </select>
+        <label for="">Talla de camiseta</label>
+        <select name="" id="">
+            <option value="">--Elige opción--</option>
+            <option value="">S</option>
+            <option value="">M</option>
+            <option value="">L</option>
+            <option value="">XL</option>
+            <option value="">XXL</option>
+        </select>
+        <label for="">¿Es tu primera carrera?</label>
+        <select name="" id="">
+            <option value="">--Elige opción--</option>
+            <option value="">Si</option>
+            <option value="">No</option>
+        </select>
+        <label for="">Telefono de contacto</label>
+        <input type="text" name="" placeholder="Telefono de contacto">
+        <label for="">Telefono de emergencia</label>
+        <input type="text" name="" placeholder="Telefono de emergencia">
+        <input type="submit" value="Enviar datos">
+    </form>
+
+</body>
+
+</html>
